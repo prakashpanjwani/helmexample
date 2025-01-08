@@ -1,0 +1,6 @@
+-----------------------------------
+Redhood Demo Helm Chart
+-----------------------------------
+Deployment Name : {{ .Chart.Name }}-deploy
+Deployment Label : {{ .Chart.Name }}
+Service Name : {{ .Chart.Name }}-service
